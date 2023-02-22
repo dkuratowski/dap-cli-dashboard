@@ -1,1 +1,1 @@
-json_strong_typing >= 0.2.5
+textual[dev] >= 0.11.1
