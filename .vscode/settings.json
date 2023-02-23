@@ -3,5 +3,13 @@
         "PYTHONPATH": "${workspaceFolder}"
     },
     "python.formatting.provider": "black",
-    "python.linting.mypyEnabled": true
+    "python.linting.mypyEnabled": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ]
 }
